@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block title %} {{title}} {% endblock %}
+
+ {% block content %}  
+
+        <form method='POST' action='/exchangeData' class="form">
+            
+            <div class="form-grp">
+                <div >
+                <label  for="date">Select a date:</label>
+                </div>
+                <input type="date" name="date" class="form-control" max={{today}} min='1999-01-01' value={date} required/>
+                <div class="help">Date between 1 Jan 1999 and Today </div>
+            </div>
+            
+            <div class="form-grp">
+                <div >
+                <label for="days">Enter no of days:</label>
+                </div>
+                <input type="number"  class="form-control" name="days" min="1" max="7" value={days} required/>
+                <div class="help"> Enter between 1 to 7 </div>
+            </div>
+            <div class="form-grp">
+                <button type="submit" >Get exchange rates</button>
+            </div>
+        </form>
+
+{% endblock %}

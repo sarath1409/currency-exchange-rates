@@ -1,0 +1,117 @@
+h1{
+  color:darkslategrey;
+  font-style: oblique;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 0px 10px;
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+  background-color: wheat;}
+
+  h2{
+    color:darkslategrey;
+    font-style: oblique;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 3px 10px;
+    width: 20%;
+    border-radius: 10px;
+    background-color: wheat;}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;  
+  margin-right: 20%; 
+  padding: 2%;
+  background-color: beige;
+  background-image: linear-gradient(beige,wheat,beige);
+  border: 2px solid rgb(226, 226, 191);
+}
+
+.form-grp{
+  display: flex;
+  justify-content: stretch;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 0px;
+}
+
+label{
+  color: darkslategrey;
+  font-size:large;
+  
+}
+.help{
+  color: gray;
+  font-style: italic;
+  font-size: smaller;
+  margin-top: 5px;
+}
+input{
+  width: 50%;
+}
+
+button{
+  border: 2px solid rgb(243, 149, 114);
+  background-color: rgb(255, 164, 131);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: medium;
+}
+
+button:active{
+  color: grey;
+  border: 2px solid rgb(243, 149, 114);
+  background-color: rgb(235, 141, 107);
+  box-shadow: 10px rgb(255, 164, 131);
+}
+
+table{
+  font-size: small;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+th{
+  background-color: rgb(235, 141, 107);
+}
+td,th{
+  padding: 5px;
+}
+
+table tr:nth-child(odd){
+  background-color: beige;
+}
+
+table tr:nth-child(even){
+  background-color: bisque;
+}
+
+table tr:nth-child(odd):hover{
+  background-color: rgb(230, 230, 196);
+}
+
+table tr:nth-child(even):hover{
+  background-color: rgb(231, 202, 165);
+}
+
+a{
+  text-align: center;
+  color: darkslategrey;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration:underline;
+}

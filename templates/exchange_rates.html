@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title %} {{title}} {% endblock %}
+
+ {% block content %}  
+    <h2> Exchange Rates for {{noOfDays}} Days  </h2>
+    <table id="exchangeRates">
+    <thead>
+        <tr>
+            {% for col in columns %}
+            <th>{{ col | upper }}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        {% for record in data %}
+        <tr>
+            {% for col in columns %}
+            <td>{{ record[col] }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<a href={{url_for('home')}}><h4 > return to home page </h4></a>  
+{% endblock %}
+
