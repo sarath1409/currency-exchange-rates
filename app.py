@@ -59,5 +59,3 @@ def alldata():
     a= fetch_all_data()
     a =json.loads(a)
     return {'response':a}
-
-app.run()
