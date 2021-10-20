@@ -60,4 +60,4 @@ def alldata():
     a =json.loads(a)
     return {'response':a}
 
-app.run(debug=True)
+app.run()
