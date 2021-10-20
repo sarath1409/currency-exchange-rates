@@ -2103,3 +2103,28 @@
 2021-10-20 20:18:16,915 || WARNING ||  * Debugger is active!
 2021-10-20 20:18:16,915 || INFO ||  * Debugger PIN: 124-231-833
 2021-10-20 20:18:17,020 || INFO ||  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-10-20 20:41:47,141 || INFO ||  * Restarting with stat
+2021-10-20 20:41:47,994 || WARNING ||  * Debugger is active!
+2021-10-20 20:41:48,010 || INFO ||  * Debugger PIN: 124-231-833
+2021-10-20 20:41:48,122 || INFO ||  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-10-20 20:41:53,887 || INFO || Redirected to Homepage
+2021-10-20 20:41:53,911 || INFO || 127.0.0.1 - - [20/Oct/2021 20:41:53] "GET / HTTP/1.1" 200 -
+2021-10-20 20:41:54,264 || INFO || 127.0.0.1 - - [20/Oct/2021 20:41:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2021-10-20 20:42:11,700 || INFO || Fetching exchange data
+2021-10-20 20:42:11,700 || INFO || Date is within valid range
+2021-10-20 20:42:11,708 || INFO || Dates are found in DB, no need to request
+2021-10-20 20:42:11,708 || INFO || 2021-10-13 date is missing in the DB, adding to missing dates list to request
+2021-10-20 20:42:11,708 || INFO || 2021-10-12 date is missing in the DB, adding to missing dates list to request
+2021-10-20 20:42:11,708 || INFO || Data unavailable in system, now requested using api.
+2021-10-20 20:42:11,708 || INFO || 127.0.0.1 - - [20/Oct/2021 20:42:11] "[32mPOST /exchangeData HTTP/1.1[0m" 302 -
+2021-10-20 20:42:11,708 || INFO || Fetching data for 2021-10-14 date, for 2 of days
+2021-10-20 20:42:11,716 || INFO || 127.0.0.1 - - [20/Oct/2021 20:42:11] "GET /fetchPeriod/2021-10-14/2 HTTP/1.1" 200 -
+2021-10-20 20:42:11,756 || INFO || 127.0.0.1 - - [20/Oct/2021 20:42:11] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2021-10-20 20:42:48,337 || INFO ||  * Restarting with stat
+2021-10-20 20:42:49,328 || WARNING ||  * Debugger is active!
+2021-10-20 20:42:49,345 || INFO ||  * Debugger PIN: 124-231-833
+2021-10-20 20:42:49,528 || INFO ||  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-10-20 20:43:04,059 || INFO || Redirected to Homepage
+2021-10-20 20:43:04,082 || INFO || 127.0.0.1 - - [20/Oct/2021 20:43:04] "GET / HTTP/1.1" 200 -
+2021-10-20 20:43:04,564 || INFO || 127.0.0.1 - - [20/Oct/2021 20:43:04] "GET /static/styles.css HTTP/1.1" 200 -
+2021-10-20 20:43:04,959 || INFO || 127.0.0.1 - - [20/Oct/2021 20:43:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
